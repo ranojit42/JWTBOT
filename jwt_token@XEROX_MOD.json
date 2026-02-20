@@ -1,10 +1,24 @@
+👋 Hello JEET 🤍!
+
+🚀 Welcome to the JWT Token Generator Bot!
+
+📁 Send me a JSON file containing account credentials like this:
+
+
 [
-    {
-        "uid": 4503801130,
-        "password": "5C579F80E40BA4EA027AE808E4B6613A4797F48D97CC8062584BE7B7AFB030EA",
-        "name": "JEET³²⁶⁷⁶",
-        "game_uid": "",
-        "region": "IND",
-        "access_token": ""
-    }   
+    {"uid": "user1", "password": "pass1"},
+    {"uid": "user2", "password": "pass2"}
 ]
+
+
+✅ Successful tokens will be saved to jwt_token.json AND accounts{Region}.json files.
+✔️ Working accounts will be saved to working_account.json
+❌ Failed accounts will be saved to lost_account.json
+
+⚠️ Max file size: 5.0MB
+
+✨ VIP Features:
+  - Auto-upload tokens to GitHub
+  - Schedule auto processing (/setfile)
+
+Use /help to see all commands.
